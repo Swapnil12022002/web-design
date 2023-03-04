@@ -8,8 +8,8 @@ function Header() {
         <div className="info-container-1">
           <div className="first-info">PORTFOLIO</div>
           <div className="second-info">
-            <div className="second-info-1">SWAPNIL</div>
-            <div className="second-info-2">SARKAR</div>
+            <h2>SWAPNIL</h2>
+            <h2>SARKAR</h2>
           </div>
         </div>
         <div className="info-container-2">
