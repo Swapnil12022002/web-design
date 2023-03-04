@@ -3,7 +3,7 @@ import coverImage from "../../Assets/webdesign.png";
 
 function Header() {
   return (
-    <div className="App-header">
+    <div id="#home" className="App-header">
       <div className="info-container">
         <div className="info-container-1">
           <div className="first-info">PORTFOLIO</div>
