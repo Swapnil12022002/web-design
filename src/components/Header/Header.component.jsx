@@ -1,5 +1,5 @@
 import "./Header.styles.scss";
-import coverImage from "../../Assets/webdesign.png";
+import coverImage from "../../Assets/webdesign.jpg";
 
 function Header() {
   return (

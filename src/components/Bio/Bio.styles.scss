@@ -1,0 +1,31 @@
+.Bio {
+  font-family: "Genos", sans-serif;
+  height: 80vh;
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .Bio-1 {
+    width: 30%;
+    img {
+      margin-top: 50px;
+      width: 90%;
+      height: 350px;
+      border-radius: 50%;
+    }
+  }
+  .Bio-2 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    .Bio-header {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+  }
+}
