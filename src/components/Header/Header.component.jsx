@@ -1,30 +1,15 @@
 import "./Header.styles.scss";
-import coverImage from "../../Assets/webdesign.jpg";
+import HeaderPic from "../../Assets/headerPic.png";
 
 function Header() {
   return (
     <div id="#home" className="App-header">
-      <div className="info-container">
-        <div className="info-container-1">
-          <div className="first-info">PORTFOLIO</div>
-          <div className="second-info">
-            <h2>SWAPNIL</h2>
-            <h2>SARKAR</h2>
-          </div>
-        </div>
-        <div className="info-container-2">
-          <p>Website Design And Development</p>
-          <p>Email Me</p>
-        </div>
+      <div className="header-info">
+        <h1>HI!👋👋</h1>
+        <p>I am Swapnil Sarkar😄😄.</p>
+        <p>Welcome to my Website</p>
       </div>
-      <div
-        className="cover-image"
-        style={{
-          backgroundImage: `url(${coverImage})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      ></div>
+      <img src={HeaderPic} alt="header-pic" />
     </div>
   );
 }

@@ -1,31 +1,163 @@
-.Bio {
-  font-family: "Genos", sans-serif;
-  height: 80vh;
-  padding: 80px;
+.Bio-Wrapper {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  .Bio-1 {
-    width: 30%;
+  height: 80vh;
+  padding: 50px;
+  .header {
+    font-family: "Fira Sans Condensed", sans-serif;
+  }
+  .Bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
     img {
-      margin-top: 50px;
-      width: 90%;
-      height: 350px;
+      width: 25%;
+      height: 100%;
       border-radius: 50%;
     }
+
+    .Bio-2 {
+      width: 45%;
+      font-family: "Genos", sans-serif;
+      font-size: 18px;
+      .Bio-header {
+        font-size: 50px;
+        line-height: 0.8;
+        margin-bottom: 20px;
+      }
+    }
   }
-  .Bio-2 {
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
+}
+
+@media only screen and (max-width: 320px) {
+  .Bio-Wrapper {
     justify-content: flex-start;
-    align-items: flex-start;
-    width: 70%;
-    .Bio-header {
-      font-size: 30px;
-      font-weight: bold;
-      margin-bottom: 30px;
+    height: 280vh;
+    padding: 40px;
+
+    .Bio {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      img {
+        width: 100%;
+        height: 25%;
+      }
+      .Bio-2 {
+        height: 65%;
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  .Bio-Wrapper {
+    justify-content: flex-start;
+    height: 230vh;
+    padding: 40px;
+
+    .header {
+      margin-bottom: 70px;
+    }
+
+    .Bio {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      img {
+        width: 70%;
+        height: 35%;
+      }
+      .Bio-2 {
+        height: 55%;
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .Bio-Wrapper {
+    justify-content: flex-start;
+    height: 150vh;
+    padding: 20px;
+
+    .header {
+      margin-bottom: 70px;
+    }
+
+    .Bio {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 85%;
+      img {
+        width: 60%;
+        height: 45%;
+      }
+      .Bio-2 {
+        height: 45%;
+        width: 70%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Bio-Wrapper {
+    justify-content: flex-start;
+    height: 150vh;
+    padding: 20px;
+
+    .header {
+      margin-bottom: 70px;
+    }
+
+    .Bio {
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 85%;
+      img {
+        width: 40%;
+        height: 50%;
+      }
+      .Bio-2 {
+        height: 35%;
+        width: 80%;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1286px) {
+  .Bio-Wrapper {
+    justify-content: flex-start;
+    height: 80vh;
+    padding: 20px;
+
+    .header {
+      margin-bottom: 70px;
+    }
+
+    .Bio {
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      height: 90%;
+      img {
+        width: 30%;
+        height: 80%;
+      }
+      .Bio-2 {
+        height: 35%;
+        width: 55%;
+      }
     }
   }
 }
